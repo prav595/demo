@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sentiment Analysis</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            // Function to perform sentiment analysis
+            function performSentimentAnalysis(text) {
+                // Code to analyze the sentiment of the text goes here
+                // ...
+            }
+
+            // Example usage
+            var text = "I love this product! It's amazing!";
+            var sentiment = performSentimentAnalysis(text);
+            console.log(sentiment);
+        });
+    </script>
+</head>
+<body>
+    <h1>Sentiment Analysis</h1>
+    <p>This is an example of performing sentiment analysis using HTML and JavaScript.</p>
+</body>
+</html>
